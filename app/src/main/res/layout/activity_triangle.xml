@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333232"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".TriangleA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular triángulo"
+        android:textColor="#ffff"
+        android:fontFamily="@font/regular_variable"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="50dp"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular_variable"
+            android:text="Base "
+            android:textSize="20sp"
+            android:textColor="#ffff">
+        </TextView>
+        <EditText
+            android:id="@+id/base"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:inputType="numberDecimal"
+            android:background="#ffff"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/regular_variable"
+            android:gravity="center"
+            android:layout_marginStart="80dp">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular_variable"
+            android:text="Lado A"
+            android:textSize="20sp"
+            android:textColor="#ffff">
+        </TextView>
+        <EditText
+            android:id="@+id/side1"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="60dp"
+            android:background="#ffff"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/regular_variable"
+            android:inputType="numberDecimal"
+            android:textSize="25sp">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular_variable"
+            android:text="Lado B"
+            android:textSize="20sp"
+            android:textColor="#ffff">
+        </TextView>
+        <EditText
+            android:id="@+id/side2"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="60dp"
+            android:background="#ffff"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/regular_variable"
+            android:inputType="numberDecimal"
+            android:textSize="25sp">
+        </EditText>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnres"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5sp"
+        android:background="@drawable/degraded"
+        android:fontFamily="@font/regular_variable"
+        android:text="Calcular"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular_variable"
+        android:hint="Área = ?"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="5sp"/>
+
+    <TextView
+        android:id="@+id/perimeter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular_variable"
+        android:hint="Perímetro = ?"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="5sp"/>
+
+    <Button
+        android:id="@+id/btnreset"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5sp"
+        android:background="@drawable/degraded"
+        android:fontFamily="@font/regular_variable"
+        android:text="Reiniciar"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5sp"
+        android:background="@drawable/degraded2"
+        android:fontFamily="@font/regular_variable"
+        android:text="Atrás"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+</LinearLayout>

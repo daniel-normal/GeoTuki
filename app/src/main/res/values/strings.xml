@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">GeoTuki</string>
+    <string name="main_concept">Las figuras geométricas en general son formas planas o tridimensionalesque se pueden describir mediante propiedades geométricas como lados, ángulos, dimensiones, perímetros, áreas y volúmenes.</string>
+    <string name="triangle_concept">Una figura con tres lados y tres ángulos. Puede ser equilátero (todos los lados y ángulos son iguales), isósceles (dos lados y dos ángulos iguales) o escaleno (todos los lados y ángulos son diferentes).</string>
+    <string name="square_concept">Un polígono de cuatro lados iguales y cuatro ángulos rectos (90 grados).</string>
+    <string name="rectangle_concept">Un polígono de cuatro lados con ángulos rectos (90 grados). Los lados opuestos son iguales y paralelos.</string>
+    <string name="circle_concept">Una figura plana en la que todos los puntos están a la misma distancia del centro. Está definido por su radio (la distancia desde el centro hasta cualquier punto en la circunferencia) y su diámetro (la distancia de un extremo al otro pasando por el centro).</string>
+    <string name="pentagon_concept">Un polígono de cinco lados.</string>
+    <string name="hexagon_concept">Un polígono de seis lados.</string>
+
+    <string name="main_detail">Las figuras geométricas son formas o estructuras bidimensionales o tridimensionales que se pueden definir matemáticamente.
+    </string>
+    <string name="triangle_detail">Definición: Un triángulo es una figura geométrica plana que consta de tres lados y tres vértices. Es la forma más simple de polígono.
+Propiedades:
+Ángulos: La suma de los ángulos internos de un triángulo siempre es igual a 180 grados.</string>
+    <string name="square_detail">Definición: Un cuadrado es un polígono de cuatro lados iguales y cuatro ángulos rectos (90 grados cada uno).
+Propiedades:
+Lados: Todos los lados de un cuadrado tienen la misma longitud.
+Ángulos: Todos los ángulos internos del cuadrado miden 90 grados.</string>
+    <string name="rectangle_detail">Definición: Un rectángulo es un polígono de cuatro lados con ángulos rectos (90 grados cada uno)
+Propiedades:
+Lados: Los lados opuestos de un rectángulo son paralelos y tienen la misma longitud.
+Ángulos: Todos los ángulos internos del rectángulo miden 90 grados.
+Diagonales: Las diagonales de un rectángulo tienen la misma longitud y se cruzan en su punto medio.</string>
+    <string name="circle_detail">Definición: Un círculo es una figura geométrica en 2D que consta de todos los puntos en un plano que están a una distancia fija de un punto central.
+Radio: El radio de un círculo es la distancia entre el centro y cualquier punto del círculo.
+Diámetro: El diámetro de un círculo es el doble de su radio y es la distancia entre dos puntos opuestos.
+Circunferencia: La circunferencia es la longitud de la curva que rodea el borde del círculo.
+Área: El área de un círculo se calcula multiplicando el cuadrado del radio por pi (π), aproximadamente 3.14159.</string>
+    <string name="first_concept">Son figuras bidimensionales que se encuentran en un plano sin altura. Ejemplos comunes incluyen triángulos, cuadrados, rectángulos, círculos y pentágonos. Se definen por sus lados, ángulos y propiedades en el plano.</string>
+    <string name="second_concept">Son figuras tridimensionales que ocupan espacio en todas las direcciones: largo, ancho y altura. Ejemplos comunes son cubos, esferas, conos, cilindros y pirámides. Se caracterizan por sus caras, vértices, aristas, volumen y área de superficie.</string>
+    <string name="pentagon_detail">El pentágono es una figura geométrica plana que consta de cinco lados y cinco ángulos. Es un polígono regular, lo que significa que todos sus lados tienen la misma longitud y todos sus ángulos internos son iguales.\nLados: Un pentágono tiene cinco lados rectos que se conectan entre sí para formar una figura cerrada.\nÁngulos: Los ángulos internos de un pentágono suman siempre 540 grados. Esto significa que cada uno de los ángulos internos mide 108 grados.</string>
+    <string name="hexagon_detail">Un hexágono es una figura geométrica plana que consta de seis lados y seis ángulos. Al igual que el pentágono, puede ser regular o irregular, dependiendo de si todos sus lados y ángulos son iguales o no.\nLados: Un hexágono tiene seis lados rectos que se conectan entre sí para formar una figura cerrada.\nÁngulos: Los ángulos internos de un hexágono suman siempre 720 grados. Esto significa que cada uno de los ángulos internos mide 120 grados en un hexágono regular.</string>
+    <string name="cube_concept">Un cubo es un sólido geométrico con seis caras cuadradas iguales que se encuentran en ángulos rectos entre sí.</string>
+    <string name="sphere_concept">Una esfera es un objeto tridimensional sin aristas ni caras planas. Es completamente redonda y simétrica en todas las direcciones. Cada punto de su superficie se encuentra a la misma distancia del centro de la esfera.</string>
+    <string name="cylinder_concept">Un cilindro es un objeto tridimensional con una base circular y una superficie curva que se extiende desde la base hasta otra base paralela en el otro extremo. Su forma se asemeja a un tubo o a un barril.</string>
+    <string name="pyramid_concept">Una pirámide es un objeto tridimensional que tiene una base poligonal y caras triangulares que convergen en un punto llamado vértice. </string>
+</resources>
